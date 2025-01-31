@@ -592,6 +592,9 @@ az webapp deployment list-publishing-profiles --name upt-awa-XXX --resource-grou
 ```
 > Donde XXX; es el numero de identicación de la Aplicación Web creada en la primera sección
 
+![image](https://github.com/user-attachments/assets/903240da-c5d6-433d-9f91-4e1ea47ff672)
+
+
 2. Abrir un navegador de internet y dirigirse a su repositorio en Github, en la sección *Settings*, buscar la opción *Secrets and Variables* y seleccionar la opción *Actions*. Dentro de esta hacer click en el botón *New Repository Secret*. En el navegador, dentro de la ventana *New Secret*, colocar como nombre AZURE_WEBAPP_PUBLISH_PROFILE y como valor el obtenido en el paso anterior.
  
 3. En el Visual Studio Code, dentro de la carpeta `.github/workflows`, crear el archivo ci-cd.yml con el siguiente contenido
