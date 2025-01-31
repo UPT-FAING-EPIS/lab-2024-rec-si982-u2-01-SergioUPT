@@ -317,6 +317,8 @@ jobs:
 azurerm_linux_web_app.webapp: Creation complete after 53s [id=/subscriptions/1f57de72-50fd-4271-8ab9-3fc129f02bc0/resourceGroups/upt-arg-XXX/providers/Microsoft.Web/sites/upt-awa-XXX]
 ```
 
+azurerm_linux_web_app.webapp: Creation complete after 54s [id=/subscriptions/***/resourceGroups/upt-arg-673/providers/Microsoft.Web/sites/upt-awa-673]
+
 ### CONSTRUCCION DE LA APLICACION
 
 1. En el terminal, ubicarse en un ruta que no sea del sistema y ejecutar los siguientes comandos.
