@@ -655,6 +655,9 @@ jobs:
    
 5. En el Navegador de internet, dirigirse al repositorio de Github y revisar la seccion Actions, verificar que se esta ejecutando correctamente el Workflow.
 
+![image](https://github.com/user-attachments/assets/34912479-183e-41ef-a713-5349408497ef)
+
+
 6. En el Navegador de internet, una vez finalizada la automatización, ingresar al sitio creado y navegar por el (https://upt-awa-XXX.azurewebsites.net).
 
 7. En el Terminal, revisar las metricas de navegacion con el siguiente comando.
