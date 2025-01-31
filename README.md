@@ -360,6 +360,9 @@ dotnet ef migrations add CreateIdentitySchema
 dotnet ef database update
 ```
 
+![image](https://github.com/user-attachments/assets/2009edb6-cae7-4e23-8fe7-f8733cf29ca7)
+
+
 5. En el Visual Studio Code, en la carpeta src/Areas/Domain, crear el archivo UrlMapping.cs con el siguiente contenido:
 ```CSharp
 namespace Shorten.Areas.Domain;
