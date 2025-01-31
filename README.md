@@ -581,6 +581,9 @@ COPY --from=build /app/out .
 ENTRYPOINT ["dotnet", "Shorten.dll"]
 ``` 
 
+![image](https://github.com/user-attachments/assets/1e0995cf-e4dc-4163-924d-fd6f8e329089)
+
+
 ### DESPLIEGUE DE LA APLICACION 
 
 1. En el terminal, ejecutar el siguiente comando para obtener el perfil publico (Publish Profile) de la aplicación. Anotarlo porque se utilizara posteriormente.
