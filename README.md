@@ -422,6 +422,9 @@ public class ShortenContext : DbContext
 }
 ```
 
+![image](https://github.com/user-attachments/assets/5c18cc05-581d-4162-9165-4b129db46ad1)
+
+
 7. En el Visual Studio Code, en la carpeta src, modificar el archivo Program.cs con el siguiente contenido al inicio:
 ```CSharp
 using Microsoft.AspNetCore.Identity;
