@@ -466,11 +466,17 @@ app.MapRazorPages();
 app.Run();
 ```
 
+![image](https://github.com/user-attachments/assets/bf914aad-ab8b-4d3f-8263-78c57aea651d)
+
+
 8. En el terminal, ejecutar los siguientes comandos para realizar la migración de la entidad UrlMapping
 ```Powershell
 dotnet ef migrations add DomainModel --context ShortenContext
 dotnet ef database update --context ShortenContext
 ```
+
+![image](https://github.com/user-attachments/assets/1d29ec8e-924a-4810-a2ee-f5fe1343e0a7)
+
 
 9. En el terminal, ejecutar el siguiente comando para crear nu nuevo controlador y sus vistas asociadas.
 ```Powershell
@@ -480,6 +486,9 @@ dotnet aspnet-codegenerator razorpage Edit Edit -m UrlMapping -dc ShortenContext
 dotnet aspnet-codegenerator razorpage Delete Delete -m UrlMapping -dc ShortenContext -outDir Pages/UrlMapping -udl
 dotnet aspnet-codegenerator razorpage Details Details -m UrlMapping -dc ShortenContext -outDir Pages/UrlMapping -udl
 ```
+
+![image](https://github.com/user-attachments/assets/06f797d0-7ddd-400b-97f9-7f2560b38edc)
+
 
 10. En el Visual Studio Code, en la carpeta src, modificar el archivo _Layout.cshtml, Adicionando la siguiente opciòn dentro del navegador:
 ```CSharp
@@ -539,6 +548,10 @@ dotnet aspnet-codegenerator razorpage Details Details -m UrlMapping -dc ShortenC
 </body>
 </html>
 ```
+
+![image](https://github.com/user-attachments/assets/9adfcdea-7013-46db-bb30-6af46baa0be2)
+
+
 11. En el Visual Studio Code, en la carpeta raiz del proyecto, crear un nuevo archivo Dockerfile con el siguiente contenido:
 ```Dockerfile
 # Utilizar la imagen base de .NET SDK
