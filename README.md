@@ -317,8 +317,6 @@ jobs:
 azurerm_linux_web_app.webapp: Creation complete after 53s [id=/subscriptions/1f57de72-50fd-4271-8ab9-3fc129f02bc0/resourceGroups/upt-arg-XXX/providers/Microsoft.Web/sites/upt-awa-XXX]
 ```
 
-azurerm_linux_web_app.webapp: Creation complete after 54s [id=/subscriptions/***/resourceGroups/upt-arg-673/providers/Microsoft.Web/sites/upt-awa-673]
-
 ### CONSTRUCCION DE LA APLICACION
 
 1. En el terminal, ubicarse en un ruta que no sea del sistema y ejecutar los siguientes comandos.
@@ -641,7 +639,16 @@ az group export -n upt-arg-XXX > lab_01.json
 ## ACTIVIDADES ENCARGADAS
 
 1. Subir el diagrama al repositorio como lab_02.png y el reporte de metricas.
+
+![image](https://github.com/user-attachments/assets/75633bd0-ed47-4447-b120-69b2cf6a157f)
+
+azurerm_linux_web_app.webapp: Creation complete after 54s [id=/subscriptions/***/resourceGroups/upt-arg-673/providers/Microsoft.Web/sites/upt-awa-673]
+
 2. Realizar el scanero del codigo de terraform utilizando TfSec o Trivy dentro del Github Action.
+
+
 3. En la aplicación completar el envio de correo para el registro de usuarios (https://learn.microsoft.com/es-es/aspnet/core/security/authentication/accconfirm?view=aspnetcore-9.0&tabs=visual-studio)
+
 4. En la aplicación migrar la cadena de conexion a la base de datos a una Configuración de aplicación de Azure, como una variable de ambiente.
+
 5. Realizar el escaneo de vulnerabilidad con SonarCloud y Semgrep dentro del Github Action correspondiente.
