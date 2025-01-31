@@ -334,7 +334,8 @@ dotnet add package Microsoft.AspNetCore.Components.QuickGrid --version=8.0.0
 dotnet add package Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter --version=8.0.0
 ```
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/c796e43a-a7a3-4786-a885-f305283e369a)
+
 
 
 2. En el terminal, ejecutar el siguiente comando para crear los modelos de autenticación de identidad dentro de la aplicación.
