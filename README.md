@@ -343,6 +343,9 @@ dotnet add package Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdap
 dotnet aspnet-codegenerator identity --useDefaultUI
 ```
 
+![image](https://github.com/user-attachments/assets/23f07817-235f-465e-b31d-073afe57013d)
+
+
 3. En el VS Code, modificar la cadena de conexión de la base de datos en el archivo appsettings.json, de la siguiente manera:
 ```JSon
 "ShortenIdentityDbContextConnection": "Server=tcp:upt-dbs-XXX.database.windows.net,1433;Initial Catalog=shorten;Persist Security Info=False;User ID=YYY;Password=ZZZ;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
