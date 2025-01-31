@@ -388,6 +388,9 @@ public class UrlMapping
     public string ShortenedUrl { get; set; } = string.Empty;
 }
 ```
+
+![image](https://github.com/user-attachments/assets/6a9c1970-fbc9-4b94-9b14-0c12ef3d2d53)
+
   
 6. En el Visual Studio Code, en la carpeta src/Areas/Domain, crear el archivo ShortenContext.cs con el siguiente contenido:
 ```CSharp
