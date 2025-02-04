@@ -676,6 +676,9 @@ az monitor metrics list --resource "/subscriptions/XXXXXXXXXXXXXXX/resourceGroup
 az group export -n upt-arg-XXX > lab_01.json
 ```
 
+![image](https://github.com/user-attachments/assets/e4e9cb0d-f210-448f-abf3-1e36f57d4c34)
+
+
 8. En el Visual Studio Code, instalar la extensión *ARM Template Viewer*, abrir el archivo lab_02.json y hacer click en el icono de previsualizar ARM.
 
 
