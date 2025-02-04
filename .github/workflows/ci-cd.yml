@@ -64,3 +64,15 @@ jobs:
       - name: Ejecutar tfsec
         run: tfsec .
 
+  semgrep_scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Instalar Semgrep
+        run: pip install semgrep
+
+      - name: Ejecutar Semgrep
+        run: semgrep --config=auto .
+
