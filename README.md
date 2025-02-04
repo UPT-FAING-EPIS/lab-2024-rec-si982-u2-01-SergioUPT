@@ -693,6 +693,8 @@ az group export -n upt-arg-XXX > lab_01.json
 
 2. Realizar el scanero del codigo de terraform utilizando TfSec o Trivy dentro del Github Action.
 
+![image](https://github.com/user-attachments/assets/5e1185e4-e3e5-419f-be88-e7c7c824b67f)
+
 
 3. En la aplicación completar el envio de correo para el registro de usuarios (https://learn.microsoft.com/es-es/aspnet/core/security/authentication/accconfirm?view=aspnetcore-9.0&tabs=visual-studio)
 
