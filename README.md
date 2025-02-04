@@ -690,11 +690,6 @@ az group export -n upt-arg-XXX > lab_01.json
 
 ![image](https://github.com/user-attachments/assets/75633bd0-ed47-4447-b120-69b2cf6a157f)
 
-azurerm_resource_group.rg: Creation complete after 13s [id=/subscriptions/***/resourceGroups/upt-arg-776]
-azurerm_service_plan.appserviceplan: Creation complete after 15s [id=/subscriptions/***/resourceGroups/upt-arg-776/providers/Microsoft.Web/serverFarms/upt-asp-776]
-azurerm_mssql_server.sqlsrv: Creation complete after 1m0s [id=/subscriptions/***/resourceGroups/upt-arg-776/providers/Microsoft.Sql/servers/upt-dbs-776]
-azurerm_mssql_firewall_rule.sqlaccessrule: Creation complete after 3s [id=/subscriptions/***/resourceGroups/upt-arg-776/providers/Microsoft.Sql/servers/upt-dbs-776/firewallRules/PublicAccess]
-azurerm_linux_web_app.webapp: Creation complete after 56s [id=/subscriptions/***/resourceGroups/upt-arg-776/providers/Microsoft.Web/sites/upt-awa-776]
 
 2. Realizar el scanero del codigo de terraform utilizando TfSec o Trivy dentro del Github Action.
 
