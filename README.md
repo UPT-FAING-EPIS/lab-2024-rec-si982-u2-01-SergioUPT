@@ -668,6 +668,9 @@ az monitor metrics list --resource "/subscriptions/XXXXXXXXXXXXXXX/resourceGroup
 ```
 > Reemplazar los valores: 1. ID de suscripcion de Azure, 2. ID de creaciòn de infra y 3. El rango de fechas de uso de la aplicación.
 
+![image](https://github.com/user-attachments/assets/73b13e00-c970-4649-8b39-19576ce1ac03)
+
+
 7. En el Terminal, ejecutar el siguiente comando para obtener la plantilla de los recursos creados de azure en el grupo de recursos UPT.
 ```Powershell
 az group export -n upt-arg-XXX > lab_01.json
