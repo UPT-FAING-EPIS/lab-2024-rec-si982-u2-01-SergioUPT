@@ -48,3 +48,16 @@ jobs:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           images: ghcr.io/sergioupt/shorten:${{github.sha}}
+    
+  security_scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Instalar tfsec
+        run: |
+          curl -fsSL https://aquasecurity.github.io/tfsec/install.sh | bash
+
+      - name: Ejecutar tfsec
+        run: tfsec .
