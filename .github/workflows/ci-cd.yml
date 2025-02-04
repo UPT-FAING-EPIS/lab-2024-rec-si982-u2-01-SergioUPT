@@ -28,7 +28,7 @@ jobs:
 
       - name: 'Build Inventory Image'
         run: |
-            docker build src/Dockerfile . --tag ghcr.io/sergioupt/shorten:${{github.sha}}
+            docker buildx build -f src/Dockerfile . --tag ghcr.io/sergioupt/shorten:${{github.sha}}
             docker push ghcr.io/sergioupt/shorten:${{github.sha}}
 
   deploy:
