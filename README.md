@@ -681,6 +681,8 @@ az group export -n upt-arg-XXX > lab_01.json
 
 8. En el Visual Studio Code, instalar la extensión *ARM Template Viewer*, abrir el archivo lab_02.json y hacer click en el icono de previsualizar ARM.
 
+![lab_02a](https://github.com/user-attachments/assets/c50fdb37-e3ea-4ae3-9681-b9c2ca107943)
+
 
 ## ACTIVIDADES ENCARGADAS
 
