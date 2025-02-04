@@ -32,8 +32,10 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapStaticAssets();
-app.MapRazorPages()
-   .WithStaticAssets();
+// Servir archivos estáticos (en lugar de MapStaticAssets y WithStaticAssets)
+app.UseStaticFiles(); // Servir archivos estáticos desde wwwroot
+
+// Mapear las Razor Pages
+app.MapRazorPages();
 
 app.Run();
