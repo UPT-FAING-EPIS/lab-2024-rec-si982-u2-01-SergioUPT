@@ -701,3 +701,7 @@ az group export -n upt-arg-XXX > lab_01.json
 4. En la aplicación migrar la cadena de conexion a la base de datos a una Configuración de aplicación de Azure, como una variable de ambiente.
 
 5. Realizar el escaneo de vulnerabilidad con SonarCloud y Semgrep dentro del Github Action correspondiente.
+
+**Semgrep Scaneo**
+
+![image](https://github.com/user-attachments/assets/b2eeeeff-d973-43ff-a161-628670805a33)
